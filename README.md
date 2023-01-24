@@ -8,6 +8,7 @@ This demonstrates a way that you can delegate DNS domain "management" to a "next
 | 234567   | clouditoutloud.com       |
 | 987654   | myeks.clouditoutloud.com |
 | 456456   | myocp.clouditoutloud.com |
+(*) account numbers are faked, in case not obvious ;-)
 
 ## Scenario
 I have several accounts that manage different parts of my workload.  In this case, accounts for either [AWS EKS](https://aws.amazon.com/eks/) or [Red Hat OpenShift](https://www.redhat.com/en/technologies/cloud-computing/openshift) (aka "ocp").  
