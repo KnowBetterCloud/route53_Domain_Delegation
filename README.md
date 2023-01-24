@@ -20,7 +20,8 @@ Following the [AWS Well-Architected Framework](https://aws.amazon.com/architectu
 Here are a few discussion points where I have found DNS delegation useful.
 
 ### OpenShift  
-Additionally, OpenShift has a dependency (requirement?) for a specific DNS configuration.
+ OpenShift has a dependency (requirement?) for a specific DNS configuration.  This provides the "core services" a way to be accessed, as well as the control-plane API.
+
 *  api.(OCP_CLUSTER_NAME).(OCP_DOMAIN_NAME)
 *  *.apps.(OCP_CLUSTER_NAME).(OCP_DOMAIN_NAME)
 
